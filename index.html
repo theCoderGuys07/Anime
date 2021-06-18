@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <!-- css link -->
+    <link rel="stylesheet" href="sass/index.css">
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@700&display=swap" rel="stylesheet">
+<!-- font awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Death Note</title>
+  </head>
+  <body>
+    <header>
+     <div class="container-fluid">
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="uwp111755.jpeg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Death Note</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="661083.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Death Note</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="722181.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Death Note</h5>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      </div>
+    </header>
+
+    <section>
+      <div class="anime-information">
+        <p>In A shinigami, as a god of death, can kill any person—provided they see their victim’s face and write their victim’s name in a notebook called a Death Note. One day, Ryuk, bored by the shinigami lifestyle and interested in seeing how a human would use a Death Note, drops one into the human realm. High school student and prodigy Light Yagami stumbles upon the Death Note and—since he deplores the state of the world—tests the deadly notebook by writing a criminal’s name in it. When the criminal dies immediately following his experiment with the Death Note, Light is greatly surprised and quickly recognizes how devastating the power that has fallen into his hands could be. With this divine capability</p>
+      </div>
+      <div class="anime-discription">
+        <p>Description :</p>
+        <div class="discription">
+          <ul>
+            <li>Type : Tv Series </li>
+            <li>Episodes : 37 + Death Note: Rewrite + Death Note: Relight</li>
+            <li>Status : Finished Airing</li>
+            <li>Aired : Oct 4, 2006 to Jun 27, 2007</li>
+            <li>Premiered : Fall 2006 Broadcast: Wednesdays at 00:56 (JST)</li>
+            <li>Producers : VAP, Konami, Ashi Production, Nippon Television Network, Shueisha</li>
+            <li>Licensors : Viz Media</li>
+            <li>Studios : Madhouse</li>
+            <li>Source : Manga</li>
+            <li>Genres : Mystery, Police, Psychological, Supernatural, Thriller, Shounen</li>
+            <li>Duration : 23 min. per ep. Rating: R – 17+ (violence & profanity)</li>
+          </ul>
+        </div>
+      </div>
+      <hr>
+      <div class="download-and-like-group">
+        <div class="button-group">
+          <div class="quality">
+            <p>Download 480p</p><span><a href="#">Download</a></span>
+          </div>
+          <div class="quality">
+            <p>Download 720p</p><span><a href="#">Download</a></span>
+          </div>
+          <div class="quality">
+            <p>Download 1080p</p><span><a href="#">Download</a></span>
+          </div>
+        </div>
+        <div class="like-button">
+          <i class="fas fa-heart"></i>
+        </div>
+      </div>
+     </div>
+    </section>
+
+  </body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+  <script>
+    let heart=document.querySelector('.fa-heart');
+    heart.addEventListener('click',()=>{
+      var heartColor = window.getComputedStyle(heart, null).getPropertyValue("color");
+      console.log(heartColor);
+      if (heartColor=="rgb(255, 255, 255)") {
+        heart.style.color="#e74c3c";
+      }
+      else{
+        heart.style.color="rgb(255, 255, 255)"
+      }
+    })
+  </script>
+</html>

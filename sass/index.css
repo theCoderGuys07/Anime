@@ -1,0 +1,174 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Alegreya Sans', sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.container-fluid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 33px;
+}
+
+.slide {
+  width: 74rem;
+}
+
+section {
+  width: 74rem;
+  margin: auto;
+}
+
+.anime-information {
+  margin-top: 23px;
+  margin-bottom: 10px;
+}
+
+.anime-information p {
+  font-size: 1.4rem;
+  letter-spacing: 0.2px;
+}
+
+.anime-discription p {
+  font-size: 1.4rem;
+  letter-spacing: 0.5px;
+  color: #e74c3c;
+}
+
+.discription ul li {
+  list-style: none;
+  font-size: 1.4rem;
+  margin-bottom: 3px;
+  letter-spacing: 0.5px;
+}
+
+hr {
+  width: 74rem;
+  border: 2px solid #e74c3c !important;
+  background-color: #e74c3c !important;
+  opacity: 0.7;
+}
+
+.download-and-like-group {
+  width: 74rem;
+  position: relative;
+}
+
+.like-button {
+  width: 42px;
+  height: 41px;
+  background-color: #2ecc71;
+  font-size: 23px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 55%;
+  position: absolute;
+  top: 0px;
+  right: 16px;
+}
+
+.fa-heart {
+  color: #fff;
+}
+
+.quality {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  font-size: 1.2rem;
+}
+
+.d-none {
+  letter-spacing: 0.8px;
+}
+
+@media screen and (max-width: 796px) {
+  html {
+    font-size: 58%;
+  }
+  .slide {
+    width: 58rem;
+  }
+  .d-none {
+    display: block !important;
+    letter-spacing: 0.8px;
+  }
+  section {
+    width: 58rem;
+  }
+  hr {
+    width: 58rem;
+  }
+  .download-and-like-group {
+    width: 50rem;
+  }
+}
+
+@media screen and (max-width: 558px) {
+  html {
+    font-size: 55%;
+  }
+  .slide {
+    width: 40rem;
+  }
+  section {
+    width: 40rem;
+  }
+  .anime-information {
+    margin-top: 15px;
+  }
+  hr {
+    width: 40rem;
+  }
+  .download-and-like-group {
+    width: 33rem;
+  }
+  .like-button {
+    width: 32px;
+    height: 32px;
+    font-size: 17px;
+    right: -39px;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  html {
+    font-size: 50%;
+  }
+  .slide {
+    width: 35rem;
+  }
+  section {
+    width: 35rem;
+  }
+  hr {
+    width: 35rem;
+  }
+  .download-and-like-group {
+    width: 29rem;
+  }
+}
+/*# sourceMappingURL=index.css.map */
