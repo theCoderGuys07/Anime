@@ -1,0 +1,201 @@
+.navbar {
+  height: 8.2rem;
+}
+
+.navbar-brand {
+  font-size: 2.6rem !important;
+  margin-left: 10px;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.nav-item {
+  margin-right: 1.4rem;
+}
+
+.nav-link {
+  font-size: 1.7rem;
+  letter-spacing: 0.6px;
+}
+
+.navbar-above {
+  position: absolute;
+  right: 0px;
+  top: 12px;
+  z-index: 1;
+}
+
+#anime {
+  color: #2ecc71;
+}
+
+.navbarBtn {
+  background-color: transparent;
+  border: 1px solid #2ecc71;
+  text-decoration: none;
+  font-size: 1rem;
+  text-transform: wi;
+  text-transform: capitalize;
+  width: 8vw;
+  margin-right: 8px;
+  border-radius: 2px;
+}
+
+.navbarBtn a:hover {
+  color: #e74c3c;
+}
+
+.navbarBtn a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#subscribeBtn {
+  background-color: #2ecc71;
+  margin-left: 2.4rem;
+}
+
+/* customize second navbar */
+.navbar2 {
+  position: relative;
+  top: -8px;
+  height: 2rem;
+}
+
+.container-fluid2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.left-side-dropdown-material {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 50%;
+  margin-top: -8px;
+  margin-left: 20px;
+}
+
+/* dropdown and searchbar */
+.btn-secondary {
+  background-color: transparent !important;
+  border: none !important;
+  font-size: 1.4rem !important;
+  text-transform: capitalize;
+  color: #2ecc71 !important;
+  height: 5vh;
+  outline: none;
+  border: none !important;
+}
+
+.dropdown {
+  margin-left: 1rem;
+  outline: none;
+}
+
+#userInput {
+  width: 15vw;
+  height: 1.9rem;
+  background-color: transparent;
+  border: 2px solid #2ecc71;
+  padding: 9px;
+  color: #fff;
+  outline: none;
+}
+
+.right-side-searcher {
+  margin-right: 10px;
+}
+
+/* onclick dropdown setting */
+.dropdown-item {
+  color: #fff !important;
+  font-size: 1.2rem;
+}
+
+.dropdown-menu.show {
+  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.show {
+  background-color: black !important;
+}
+
+/* responive unit */
+@media screen and (max-width: 990px) {
+  .navbar-collapse {
+    position: absolute;
+    right: 0px;
+    top: 50px;
+    width: 21%;
+    height: 60vh;
+  }
+  #userInput {
+    width: 18vw;
+  }
+  .left-side-dropdown-material {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    position: absolute;
+    z-index: 5;
+    bottom: 77px;
+    font-size: 3rem;
+    margin-left: 0;
+  }
+  .right-side-searcher {
+    position: absolute;
+    /* bottom: -58px; */
+    bottom: -30px;
+  }
+  .btn-secondary {
+    height: 0vh;
+  }
+}
+
+@media screen and (max-width: 702px) {
+  .navbar-collapse {
+    width: 28%;
+  }
+  #userInput {
+    width: 24vw;
+  }
+}
+
+@media screen and (max-width: 566px) {
+  .navbar-collapse {
+    width: 44%;
+  }
+  #userInput {
+    width: 37vw;
+  }
+}
+
+@media screen and (max-width: 438px) {
+  .dropdown-letter {
+    font-size: 14px;
+  }
+  .dropdown {
+    margin-right: -20px;
+    margin-left: 14px;
+  }
+}
+/*# sourceMappingURL=navbar.css.map */
